@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Reset Code */
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* .container {
+    background-color: #fbdce1;
+} */
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0e0613;
+  z-index: 1;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(170, 64, 64);
+  padding: 20px;
+}
+.logo {
+  margin-left: 30x;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+}
+.logo a img {
+  width: 90px;
+  border-radius: 50px;
+}
+.menu {
+  padding-top: 2.5%;
+  margin-right: 50px;
+}
+.menu a {
+  color: #cc8490;
+  font-size: 18px;
+  font-family: poppins;
+  transition: 0.4s;
+}
+.menu a:hover {
+  color: rgb(187, 184, 184);
+}
+
+/* Top page CSS */
+video {
+  width: 100%;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 50vh;
+  z-index: -1;
+}
+.top-banner{
+    position:relative;
+}
+.top-page{
+    position:absolute;
+    top:100px;
+    right:100px;
+}
+.top-titles {
+  text-align: right;
+  margin-right: 9%;
+  margin-top: 10%;
+}
+.top-titles h1 {
+  font-family: "Poppins";
+  color: #1a2252;
+  font-size: 35px;
+  opacity: 0.8;
+}
+.top-titles h2 {
+  font-family: "Poppins";
+  font-size: 23px;
+  color: #020104;
+  opacity: 0.9;
+  padding: 10px 0;
+}
+.btn {
+  margin-top: 30px;
+  margin-right: 9%;
+  text-align: right;
+  z-index: 1;
+} 
+.btn button {
+  background-color: #c05264;
+  padding: 15px 30px;
+  border-radius: 10px; 
+  border: 0;
+  color: #fff;
+  transition: .4s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #cb8390;
+} 
